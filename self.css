@@ -1,0 +1,58 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+}
+.navis {
+  display: flex;
+  justify-items: center;
+  background-color: brown;
+}
+
+.navis ul {
+  display: flex;
+  /* padding: 5px; */
+  background-color: blueviolet;
+}
+.navis ul li {
+  list-style: none;
+  justify-content: space-evenly;
+  /* padding: 1em; */
+}
+
+.pro {
+
+  display: flex;
+  align-content: center;
+  width: 100%;
+  height: 700px;
+  padding-top: 2em;
+  background-color: aqua;
+  /* border-radius: 90%; */
+}
+.prof {
+  margin: 2px auto;
+  width: 400px;
+  border-radius: 90%;
+}
+
+.kotak {
+  margin: 10px auto;
+  /* display: flex; */
+  /* justify-items: center; */
+  width: 300px;
+  height: 300px;
+  background-color: chartreuse;
+  background-image: url(IMG_8309.jpg);
+  background-size: cover;
+  /* background-position-x: 2px; */
+  border-radius: 50%;
+}
